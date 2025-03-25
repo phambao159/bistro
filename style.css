@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.index {
+    background: linear-gradient(to bottom, #ffffff, #0011ff);
+    height: 100vh;
+
+}
+
+.main {
+    font-family: "Roboto", sans-serif;
+    width: 95%;
+    height: auto;
+    box-shadow: 5px 5px 5px gray;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.image {
+    margin-bottom: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image b {
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    font-size: 50px;
+    text-shadow: 5px 3px 15px black;
+    color: white;
+}
+
+.nav {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    margin-right: 0.3em;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 30px;
+    color: darkblue;
+    margin: 20px 0px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+/* Css for menu.html */
+
+.menu {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    border: 0.2rem solid gray;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto;
+    grid-template-areas: "trai phai";
+    gap: 0.8vw;
+    padding: 1.3rem;
+    font-size: 1.3vw;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.trai {
+    width: auto;
+    height: auto;
+    grid-area: trai;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8vw;
+}
+
+.trai .mothinh {
+    border: 0.2rem solid gray;
+    padding: 0.8vw;
+    height: 13vw;
+}
+
+.trai .mothinh img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    display: block;
+    margin: 0px auto;
+}
+
+.trai .mothinh p {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.phai {
+    grid-area: phai;
+    display: flex;
+    align-items: center;
+    padding: 1.3rem;
+    border: 0.2rem solid gray;
+}
+
+.phai .mothinh {
+    margin: auto;
+    height: 30vw;
+    padding: 0.8vw;
+}
+
+.phai .mothinh img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.phai .mothinh p {
+    text-align: center;
+    margin-top: 10px;
+
+}
