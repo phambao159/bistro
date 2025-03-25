@@ -85,6 +85,8 @@
     font-family: "Roboto", sans-serif;
     border-radius: 1vw;
     box-shadow: 0.5vw 0.5vw 0.5vw gray;
+    position: relative;
+
 }
 
 .trai {
@@ -157,4 +159,54 @@
 
 hr {
     margin: 3vw 0vw;
+}
+
+@keyframes zoom1 {
+    0% {
+        top: 0%;
+        left: -60%;
+    }
+
+    50% {
+        top: 0%;
+        left: 60%;
+    }
+
+    100% {
+        top: 0%;
+        left: -60%;
+    }
+}
+
+@keyframes zoom2 {
+    0% {
+        top: 0%;
+        left: 60%;
+    }
+
+    50% {
+        top: 0%;
+        left: -60%;
+    }
+
+    100% {
+        top: 0%;
+        left: 60%;
+    }
+}
+
+.mot,
+.ba {
+    animation-name: zoom1;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.hai,
+.bon {
+    animation-name: zoom2;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
