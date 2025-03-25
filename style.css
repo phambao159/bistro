@@ -21,6 +21,7 @@
 
 .image {
     margin-bottom: 20px;
+    position: relative;
 }
 
 .image img {
@@ -30,14 +31,14 @@
     object-position: 50% 30%;
     border: 3px solid black;
     border-radius: 10px;
-    position: relative;
 }
 
 .image b {
     position: absolute;
-    top: 8%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
     font-size: 50px;
+    transform: translate(-30%, -50%);
     text-shadow: 5px 3px 15px black;
     color: white;
 }
