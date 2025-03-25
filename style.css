@@ -17,6 +17,7 @@
     margin: 20px auto;
     padding: 20px;
     background-color: white;
+
 }
 
 .image {
@@ -73,7 +74,7 @@
     width: 80%;
     height: auto;
     margin: 1rem auto;
-    border: 0.2rem solid gray;
+    border: 0.4vw solid gray;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto;
@@ -82,7 +83,8 @@
     padding: 0.8vw;
     font-size: 1.3vw;
     font-family: "Roboto", sans-serif;
-
+    border-radius: 1vw;
+    box-shadow: 0.5vw 0.5vw 0.5vw gray;
 }
 
 .trai {
@@ -93,9 +95,16 @@
 }
 
 .trai .mothinh {
-    border: 0.2rem solid gray;
+    border: 0.4vw solid gray;
     padding: 0.8vw;
-    height: 13vw;
+    height: 10vw;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0vw 0.3vw gray;
+    transition: transform 1s;
+}
+
+.trai .mothinh:hover {
+    transform: scale(1.1);
 }
 
 .trai .mothinh img {
@@ -108,6 +117,7 @@
 
 .trai .mothinh p {
     text-align: center;
+    margin-top: 0.3vw;
 }
 
 .phai {
@@ -115,13 +125,20 @@
     display: flex;
     align-items: center;
     padding: 1.3rem;
-    border: 0.2rem solid gray;
+    border: 0.4vw solid gray;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0vw 0.3vw gray;
+    transition: transform 1s;
 }
 
 .phai .mothinh {
     margin: auto;
-    height: 30vw;
+    height: 25vw;
     padding: 0.8vw;
+}
+
+.phai:hover {
+    transform: scale(0.9);
 }
 
 .phai .mothinh img {
