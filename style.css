@@ -78,15 +78,13 @@
     grid-template-rows: auto;
     grid-template-areas: "trai phai";
     gap: 0.8vw;
-    padding: 1.3rem;
+    padding: 0.8vw;
     font-size: 1.3vw;
     font-family: "Roboto", sans-serif;
 
 }
 
 .trai {
-    width: auto;
-    height: auto;
     grid-area: trai;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -109,7 +107,6 @@
 
 .trai .mothinh p {
     text-align: center;
-    margin-top: 5px;
 }
 
 .phai {
